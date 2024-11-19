@@ -16,7 +16,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <hr />
         <footer>
           <h2>Find us on</h2>
-          <ul>
+          {socialLinks&&(<ul>
             {socialLinks.twitter && (
               <li>
                 <a
@@ -52,7 +52,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
                 </a>
               </li>
             )}
-          </ul>
+          </ul>)}
         </footer>
       </body>
     </html>
