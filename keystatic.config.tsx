@@ -3,11 +3,13 @@ import { ShowcaseYouTubeVideo } from './components/showcase-youtube-video'
 
 export default config({
   storage: {
-    kind: 'local',
+    kind: 'github',
+    pathPrefix:'prod',
+    repo:'Kaushik268mlore/Blog'
   },
   ui: {
     brand: {
-      name: 'Keystatic mini course',
+      name: 'Kaushik\'s Writings',
       mark: () => (
         <svg
           xmlns="http://www.w3.org/2000/svg"
