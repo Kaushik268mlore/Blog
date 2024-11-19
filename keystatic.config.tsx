@@ -4,7 +4,10 @@ import { ShowcaseYouTubeVideo } from './components/showcase-youtube-video'
 export default config({
   storage: {
     kind: 'github',
-    repo:'Kaushik268mlore/Blog'
+    repo:{
+      owner: 'Kaushik268mlore',
+      name:'Blog',
+    }
   },
   ui: {
     brand: {
